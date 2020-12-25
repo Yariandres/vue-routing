@@ -5,6 +5,7 @@
       <user-item
         v-for="member in members"
         :key="member.id"
+        :id="team.id"
         :name="member.fullName"
         :role="member.role"
       ></user-item>
